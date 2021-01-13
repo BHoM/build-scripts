@@ -1,12 +1,6 @@
-# template-repository
-This repository can be used to create brand new BHoM Toolkits :rocket:
+# BHoM Automated Build Scripts
 
-## Getting started and templates
-Learn how to [rapidly set up your development environment for BHoM here](https://github.com/BHoM/documentation/wiki/Getting-started-for-developers). 
+The scripts contained in this repo help you clone, pull and build BHoM toolkits from source.
 
-Also, **Visual Studio templates**! :rocket:
-
-- [**Toolkit template**](https://github.com/BHoM/documentation/raw/master/templates/Toolkit%20template/SoftwareName_Toolkit.zip)
-- [Engine methods templates](https://github.com/BHoM/documentation/tree/master/templates/Engine%20method%20templates) (have a look at these later)
-
-For instructions on how to use the templates, [see the wiki page on the BHoM_Toolkit](https://github.com/BHoM/documentation/wiki/The-BHoM-Toolkit).
+To set up and run on your local machine ensure you have reviewed and set the varibles in the Config.ps1 PowerShell script, including the Microsoft Visual Studio MSBuild.exe and the NuGet.exe paths
+If you do not have Nuget.exe on your machine, it can be downloaded from https://www.nuget.org/downloads
